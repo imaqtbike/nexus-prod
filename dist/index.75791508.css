@@ -58,6 +58,11 @@ table {
   src: url("helvetica-neue-bold.0e3df193.ttf");
 }
 
+@font-face {
+  font-family: "Helvetica Neue Light";
+  src: url("helvetica-neue-light.442273e0.otf");
+}
+
 .main__header {
   display: flex;
   justify-content: space-between;
@@ -70,8 +75,12 @@ table {
 .main__header .header__navigation ul {
   display: flex;
   list-style: none;
-  gap: 10px;
+  gap: 32.5px;
   text-transform: uppercase;
+}
+
+.main__header .header__navigation ul li {
+  font-family: "Helvetica Neue Light";
 }
 
 .company__introductory {
@@ -130,7 +139,7 @@ table {
 .company__introductory .introductory__pickup .ip__links {
   display: flex;
   flex-direction: column;
-  gap: 6.9px;
+  gap: 9.4px;
   margin-left: 15.6px;
 }
 
@@ -142,6 +151,7 @@ table {
 }
 
 .company__introductory .introductory__pickup .ip__scroll > a {
+  font-family: "Helvetica Neue Light";
   color: #000;
   text-decoration: none;
 }
