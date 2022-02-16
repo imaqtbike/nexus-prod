@@ -1,7 +1,7 @@
-@import './mixin';
-@import './variables';
 @include reset-css;
-@import './fonts_face';
+@import './utilities/mixin';
+@import './utilities/variables';
+@import './utilities/fonts_face';
 
 
 .main__header {
