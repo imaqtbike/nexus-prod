@@ -1,7 +1,7 @@
-@include reset-css;
 @import './utilities/mixin';
 @import './utilities/variables';
 @import './utilities/fonts_face';
+@include reset-css;
 
 
 .main__header {
@@ -93,6 +93,30 @@
                 color: $black;
                 text-decoration: none;
             }
+        }
+    }
+}
+
+
+.company__strength {
+    .cs__1 {
+        display: flex;
+        justify-content: space-between;
+        .cs__line {
+            width: 592.6px;
+        }
+        &--text {
+            font-size: 55px;
+            font-family: "Yu Gothic StdN";
+            margin-left: 86.7px;
+            height: 97.9px;
+            border-bottom: 1px solid black;
+            display: block;
+        }
+        &--box {
+            width: 683.97px;
+            height: 416.98px;
+            background-color: $gray-color-box;
         }
     }
 }
