@@ -61,6 +61,7 @@ html {
 body {
   max-width: 1400px;
   margin: auto !important;
+  color: #13223D;
 }
 
 @media (min-width: 1200px) {
@@ -101,17 +102,18 @@ body {
   font-size: 63px;
   font-weight: 600;
   margin-left: 119.1px;
-  margin-right: 34.8px;
   margin-top: 141.7px;
 }
 .name div {
   font-size: 24px;
   margin-top: 182.6px;
+  margin-left: 91.6px;
+  letter-spacing: 20px;
 }
 
 .orangeline {
   height: 30.32px;
-  width: 700.86px;
+  width: 701.86px;
   top: 234.4px;
   background-color: #fe881c;
   position: relative;
@@ -126,22 +128,70 @@ body {
   color: #13223D;
 }
 
+section {
+  color: #13223D;
+  font-family: "Yu Gothic Light";
+  font-weight: 600;
+}
+section hr {
+  width: 800px;
+  margin-bottom: 46.1px;
+}
 section img {
   width: 1276.77px;
   height: 430.94px;
+  float: right;
+  filter: #8E919E;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+section h2 {
+  font-size: 41px;
+  font-weight: bold;
+  font-family: "Helvetica Neue";
+}
+section p {
+  font-size: 24px;
+  width: 600px;
+  letter-spacing: 2.5px;
+  line-height: 40px;
+}
+section h3 {
+  font-size: 24px;
+  margin-bottom: 29.6px;
+  font-weight: 600;
+}
+section span {
+  font-size: 24px;
+  letter-spacing: 7px;
+  margin-left: 10px;
 }
 section .grayline {
   height: 426.56px;
   width: 1017.36px;
-  bottom: 350.4px;
+  top: 90.4px;
   background-color: #8E919E;
   opacity: 30%;
   position: relative;
   left: 0px;
   z-index: -1;
 }
+section .container {
+  margin-top: 220.5px;
+}
+section .col {
+  margin-bottom: 156px;
+}
+section .right {
+  width: 200px;
+  margin-left: 80.2px;
+}
+section .left {
+  margin-right: 40px;
+}
 
 footer {
+  color: #13223D;
   border-top: 1px solid #13223D;
   border-bottom: 1px solid #13223D;
   font-size: 17px;
