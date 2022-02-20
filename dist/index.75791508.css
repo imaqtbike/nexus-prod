@@ -206,24 +206,43 @@ table {
   height: 175.89px;
   margin: 162.6px 0 0 125.1px;
 }
-.company__strength .cs__2 .cs__container {
+.cs__container {
   display: flex;
   flex-direction: column;
   flex-grow: 4;
 }
-.company__strength .cs__2 .cs__container .cs__intro {
+.cs__container .cs__intro {
   margin: 0 auto;
   width: 677.4px;
   font-size: 63px;
   font-family: "Helvetica Neue";
   color: #13223D;
 }
-.company__strength .cs__2 .cs__container .cs__intro .x {
+.cs__container .cs__intro .x {
   font-family: "Kozuka Gothic Pr6N";
   font-size: 62px;
 }
-.company__strength .cs__2 .cs__container .cs__orange-box {
+.cs__container .cs__orange-box {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 50px;
   height: 40.17px;
   background-color: #FF881D;
+}
+.cs__container .cs__orange-box > span {
+  display: inline-block;
+  margin: 9.3px 0 13.9px 86.2px;
+  font-size: 13px;
+  color: #fff;
+  font-family: "Kozuka Gothic Pr6N";
+  letter-spacing: 2px;
+}
+.cs__container .cs__text {
+  display: flex;
+  flex-direction: column;
+}
+.cs__container .cs__text > span {
+  font-size: 16px;
 }
 /*# sourceMappingURL=index.75791508.css.map */

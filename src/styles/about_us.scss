@@ -162,28 +162,51 @@
         .cs__1--box {
             @include rectangle;
         }
-        .cs__container {
-            display: flex;
-            flex-direction: column;
-            flex-grow: 4;
-            
-            .cs__intro {
-                margin: 0 auto;
-                width: 677.4px;
-                font-size: 63px;
-                font-family: "Helvetica Neue";
-                color: $base-dark-blue;
-
-                .x {
-                    font-family: "Kozuka Gothic Pr6N";
-                    font-size: 62px;
-                }
-            }
-
-            .cs__orange-box {
-                height: 40.17px;
-                background-color: $orange-line;
-            }
-        } 
     }
 }
+
+.cs__container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+    
+    .cs__intro {
+        margin: 0 auto;
+        width: 677.4px;
+        font-size: 63px;
+        font-family: "Helvetica Neue";
+        color: $base-dark-blue;
+
+        .x {
+            font-family: "Kozuka Gothic Pr6N";
+            font-size: 62px;
+        }
+    }
+
+    .cs__orange-box {
+        display: flex;
+        align-items: center;
+        position: relative;
+        right: 50px;
+        height: 40.17px;
+        background-color: $orange-line;
+
+        & > span {
+            display: inline-block;
+            margin: 9.3px 0 13.9px 86.2px;
+            font-size: 13px;
+            color: $white;
+            font-family: "Kozuka Gothic Pr6N";
+            letter-spacing: 2px;
+        }
+    }
+
+    .cs__text {
+        display: flex;
+        flex-direction: column;
+
+        & > span {
+            font-size: 16px;
+        }
+    }
+} 
