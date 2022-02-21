@@ -64,16 +64,6 @@ body {
   color: #13223D;
 }
 
-@media (min-width: 1200px) {
-  .visible-lg-block {
-    display: block !important;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
 .main__header {
   display: flex;
   justify-content: space-between;
@@ -137,10 +127,14 @@ section hr {
   width: 800px;
   margin-bottom: 46.1px;
 }
+section .img-container {
+  position: relative;
+}
 section img {
   width: 1276.77px;
   height: 430.94px;
-  float: right;
+  position: absolute;
+  margin-left: 123.2px;
   filter: #8E919E;
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
@@ -169,11 +163,12 @@ section span {
 section .grayline {
   height: 426.56px;
   width: 1017.36px;
-  top: 90.4px;
+  position: absolute;
+  top: 80px;
+  left: 0;
   background-color: #8E919E;
   opacity: 30%;
   position: relative;
-  left: 0px;
   z-index: -1;
 }
 section .container {
@@ -217,5 +212,402 @@ footer li {
   line-height: 40px;
   font-weight: 600;
   border-bottom: 1px solid #13223D;
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  section hr {
+    width: 60rem;
+    margin-bottom: 3.5rem;
+  }
+  section img {
+    width: 95rem;
+    height: 35rem;
+    margin-left: 10rem;
+  }
+  section .grayline {
+    height: 35rem;
+    width: 80rem;
+    top: 8rem;
+  }
+  section .container {
+    margin-top: 18em;
+  }
+  section .col {
+    margin-bottom: 6rem;
+  }
+  section .right {
+    width: 3rem;
+  }
+  section .left {
+    width: 3rem;
+    margin-left: -18rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .main__header {
+    width: 90rem;
+    padding-left: 10rem;
+    font-size: 1rem;
+  }
+  .main__header img {
+    height: 50%;
+  }
+  .main__header .header__navigation ul {
+    gap: 1.8rem;
+  }
+
+  .name {
+    width: 70rem;
+    margin-bottom: 5rem;
+  }
+  .name #name {
+    font-size: 5rem;
+    font-weight: 600;
+    margin-left: 10rem;
+    margin-right: -5rem;
+    margin-top: 10rem;
+  }
+  .name div {
+    font-size: 1.7rem;
+    margin-top: 13.3rem;
+  }
+
+  .orangeline {
+    height: 3rem;
+    width: 57rem;
+    top: 17.5rem;
+  }
+
+  #name2 {
+    margin-bottom: 5rem;
+    margin-left: 10rem;
+    font-size: 1.7rem;
+  }
+
+  section hr {
+    width: 40rem;
+    margin-bottom: 3.5rem;
+  }
+  section .img-container {
+    position: relative;
+  }
+  section img {
+    width: 82rem;
+    height: 30rem;
+    position: absolute;
+    margin-left: 7rem;
+  }
+  section h2 {
+    font-size: 4rem;
+  }
+  section p {
+    font-size: 1.5rem;
+    width: 70rem;
+    letter-spacing: 0.5rem;
+    line-height: 2rem;
+  }
+  section h3 {
+    font-size: 2rem;
+    margin-bottom: 29.6px;
+    font-weight: 600;
+  }
+  section span {
+    font-size: 2rem;
+    margin-left: 10px;
+  }
+  section .grayline {
+    height: 28rem;
+    width: 80rem;
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    background-color: #8E919E;
+    opacity: 30%;
+    position: relative;
+    z-index: -1;
+  }
+  section .container {
+    margin-top: 18em;
+  }
+  section .col {
+    margin-bottom: 6rem;
+  }
+  section .right {
+    width: 10rem;
+    margin-left: 4rem;
+  }
+  section .left {
+    width: 10rem;
+    margin-left: -16rem;
+  }
+
+  footer {
+    width: 90rem;
+    margin-left: 3rem;
+  }
+  footer .main__header {
+    padding-left: 3rem;
+    padding-right: 1rem;
+    font-size: 1.3rem;
+    gap: 3rem;
+  }
+
+  .end {
+    margin-left: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+  }
+  .end p {
+    font-size: 1.3rem;
+    margin-left: 2rem;
+  }
+  .end a {
+    margin-left: 2rem;
+    font-size: 5rem;
+    line-height: 3rem;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .main__header {
+    width: 67rem;
+    padding-left: 5rem;
+    padding-right: 0rem;
+  }
+  .main__header img {
+    width: 65%;
+  }
+  .main__header .header__navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 32.5px;
+    text-transform: uppercase;
+  }
+  .main__header .header__navigation ul li {
+    font-size: 0.8rem;
+    font-family: "Helvetica Neue Light";
+  }
+
+  .name {
+    width: 50rem;
+    margin-bottom: 5rem;
+  }
+  .name #name {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 3rem;
+    margin-right: 0rem;
+    margin-top: 8rem;
+  }
+  .name div {
+    font-size: 1.5rem;
+    margin-top: 9.5rem;
+    margin-left: 4rem;
+  }
+
+  .orangeline {
+    height: 2.3rem;
+    width: 35rem;
+    top: 13rem;
+  }
+
+  section hr {
+    width: 40rem;
+    margin-bottom: 2rem;
+  }
+  section img {
+    width: 65rem;
+    height: 25rem;
+    margin-left: 3rem;
+  }
+  section h2 {
+    font-size: 2.8rem;
+  }
+  section p {
+    font-size: 1.5rem;
+    width: 40rem;
+    letter-spacing: 0.5rem;
+    line-height: 2.5rem;
+  }
+  section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 29.6px;
+    font-weight: 600;
+  }
+  section span {
+    font-size: 1.8rem;
+    letter-spacing: 0.7rem;
+    margin-left: 0.5rem;
+  }
+  section .grayline {
+    height: 21rem;
+    width: 55rem;
+  }
+  section .container {
+    margin-top: 18rem;
+  }
+  section .col {
+    margin-bottom: 8rem;
+  }
+  section .right {
+    margin-left: 0rem;
+  }
+  section .left {
+    margin-right: 1rem;
+    margin-left: -17.5rem;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    width: 70rem;
+    margin-left: 1rem;
+  }
+  footer .main__header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  footer .main__header {
+    height: 8rem;
+    padding-left: 1.5rem;
+  }
+
+  .end {
+    margin-left: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+  .end p {
+    font-size: 0.9rem;
+    margin-left: 2rem;
+  }
+  .end a {
+    margin-left: 2rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .main__header {
+    width: 43rem;
+    padding-left: 2.4rem;
+  }
+  .main__header img {
+    width: 8rem;
+  }
+  .main__header .header__navigation ul {
+    gap: 1.2rem;
+  }
+  .main__header .header__navigation ul li {
+    font-size: 0.7rem;
+  }
+
+  .name {
+    width: 50rem;
+    margin-bottom: 3rem;
+  }
+  .name #name {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 4rem;
+    margin-right: 0rem;
+    margin-top: 10rem;
+  }
+  .name div {
+    font-size: 1.5rem;
+    margin-top: 11.5rem;
+  }
+
+  .orangeline {
+    height: 2rem;
+    width: 35rem;
+    top: 14.5rem;
+  }
+
+  section hr {
+    width: 30rem;
+    margin-bottom: rem;
+  }
+  section img {
+    width: 45rem;
+    height: 18rem;
+  }
+  section h2 {
+    font-size: 2.2rem;
+  }
+  section p {
+    font-size: 1.3rem;
+    letter-spacing: 0.3rem;
+    line-height: 1.8rem;
+  }
+  section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+  section span {
+    font-size: 1.4rem;
+    letter-spacing: 0.5rem;
+    margin-left: 10px;
+  }
+  section .grayline {
+    height: 17rem;
+    width: 40rem;
+    top: 5rem;
+  }
+  section .container {
+    margin-top: 10rem;
+  }
+  section .col {
+    margin-bottom: 3rem;
+  }
+  section .right {
+    margin-left: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  section .left {
+    width: 30rem;
+    margin-right: 0rem;
+    margin-left: 10rem;
+  }
+
+  footer {
+    font-size: 1rem;
+    width: 46.5rem;
+    margin-left: 1.5rem;
+  }
+  footer .main__header {
+    height: 6rem;
+    padding-left: 1.5rem;
+  }
+
+  .end {
+    margin-left: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+  .end p {
+    font-size: 1rem;
+  }
+  .end a {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 600;
+  }
 }
 /*# sourceMappingURL=access.675966b6.css.map */
