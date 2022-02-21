@@ -161,6 +161,12 @@ article ul div {
 article ul .signature {
   font-size: 32px;
 }
+article ul .letter-ending {
+  font-size: 14px;
+}
+article ul .letter-ending2 {
+  font-size: 24px;
+}
 
 footer {
   display: flex;
@@ -285,6 +291,12 @@ footer .main__header {
   article ul .signature {
     font-size: 2.8rem;
   }
+  article ul .letter-ending {
+    font-size: 1rem;
+  }
+  article ul .letter-ending2 {
+    font-size: 1.6rem;
+  }
 
   footer {
     width: 90rem;
@@ -313,7 +325,7 @@ footer .main__header {
     font-weight: 600;
   }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
   .main__header {
     width: 67rem;
     padding-left: 5rem;
@@ -415,6 +427,12 @@ footer .main__header {
   article ul .signature {
     font-size: 2.3rem;
   }
+  article ul .letter-ending {
+    font-size: 1rem;
+  }
+  article ul .letter-ending2 {
+    font-size: 1.5rem;
+  }
 
   footer {
     font-size: 0.9rem;
@@ -446,7 +464,7 @@ footer .main__header {
     font-weight: 600;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   html {
     font-size: 62.5%;
   }
@@ -543,6 +561,12 @@ footer .main__header {
   }
   article ul .signature {
     font-size: 1.8rem;
+  }
+  article ul .letter-ending {
+    font-size: 0.9rem;
+  }
+  article ul .letter-ending2 {
+    font-size: 1.5rem;
   }
 
   footer {
