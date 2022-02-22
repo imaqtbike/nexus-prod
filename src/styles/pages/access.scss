@@ -77,8 +77,7 @@ body {
 
 section{
     color: $base-dark-blue;
-    font-family: "Yu Gothic Light";
-    font-weight: 600;
+    font-weight: 300;
     hr{
         width: 800px;
         margin-bottom: 46.1px;
@@ -109,7 +108,7 @@ section{
     h3  {
         font-size: 24px;
         margin-bottom: 29.6px;
-        font-weight: 600;
+        font-weight: 400;
     }
     span{
         font-size: 24px;
@@ -207,7 +206,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     html {
         font-size: 62.5%;
     }
@@ -475,7 +474,7 @@ footer {
     
   }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 575px) {
     html {
         font-size: 62.5%;
     }
