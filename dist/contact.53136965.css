@@ -64,16 +64,6 @@ body {
   color: #13223D;
 }
 
-@media (min-width: 1200px) {
-  .visible-lg-block {
-    display: block !important;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
 .main__header {
   display: flex;
   justify-content: space-between;
@@ -148,9 +138,6 @@ form .row {
   margin-bottom: 35.2px;
   align-items: center;
 }
-form .col-sm-4 {
-  width: 351.26px;
-}
 form .form-control {
   margin-left: 20px;
   width: 667.66px;
@@ -159,12 +146,24 @@ form .form-control {
   border: #F0F0F0;
   border-radius: 0%;
 }
+form #inlineFormInput {
+  margin-left: 2.6rem;
+  margin-top: 30px;
+  width: 319.91px;
+  margin-bottom: 35.2px;
+}
+form .two {
+  margin-left: 4rem;
+}
 form .form-check {
   margin-top: 57.9px;
   margin-left: 20px;
 }
 form .behind {
   margin-left: 42px;
+}
+form .last {
+  height: 233.83px;
 }
 form .button-container {
   margin-top: 58px;
@@ -207,5 +206,389 @@ footer li {
   line-height: 40px;
   font-weight: 600;
   border-bottom: 1px solid #13223D;
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  section hr {
+    width: 60rem;
+    margin-bottom: 3.5rem;
+  }
+  section img {
+    width: 95rem;
+    height: 35rem;
+    margin-left: 10rem;
+  }
+  section .grayline {
+    height: 35rem;
+    width: 80rem;
+    top: 8rem;
+  }
+  section .container {
+    margin-top: 18em;
+  }
+  section .col {
+    margin-bottom: 6rem;
+  }
+  section .right {
+    width: 3rem;
+  }
+  section .left {
+    width: 3rem;
+    margin-left: -18rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .main__header {
+    width: 90rem;
+    padding-left: 10rem;
+    font-size: 1rem;
+  }
+  .main__header img {
+    height: 50%;
+  }
+  .main__header .header__navigation ul {
+    gap: 1.8rem;
+  }
+
+  .name {
+    width: 70rem;
+    margin-bottom: 5rem;
+  }
+  .name #name {
+    font-size: 5rem;
+    font-weight: 600;
+    margin-left: 10rem;
+    margin-right: -5rem;
+    margin-top: 10rem;
+  }
+  .name div {
+    font-size: 1.7rem;
+    margin-top: 13.3rem;
+  }
+
+  .orangeline {
+    height: 3rem;
+    width: 57rem;
+    top: 17.5rem;
+  }
+
+  #name2 {
+    margin-bottom: 5rem;
+    margin-left: 10rem;
+    font-size: 1.7rem;
+  }
+
+  p {
+    margin-left: 10rem;
+    font-size: 1.5rem;
+  }
+
+  form {
+    margin-top: 3rem;
+    margin-left: 15rem;
+    font-size: 1.2rem;
+  }
+  form .row {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  form .form-control {
+    width: 50rem;
+    height: 5rem;
+  }
+  form .form-check {
+    width: 12rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+  }
+  form #inlineFormInput {
+    margin-left: 2.5rem;
+    margin-top: 0rem;
+    width: 23.75rem;
+    margin-bottom: 3rem;
+  }
+  form .behind {
+    margin-left: 5rem;
+  }
+  form .last {
+    height: 10rem;
+  }
+  form .button-container {
+    margin-top: 3rem;
+    margin-bottom: 179.2px;
+  }
+  form .button-container button {
+    width: 9rem;
+    height: 3.5rem;
+  }
+
+  footer {
+    width: 90rem;
+    margin-left: 3rem;
+  }
+  footer .main__header {
+    padding-left: 3rem;
+    padding-right: 1rem;
+    font-size: 1.3rem;
+    gap: 3rem;
+  }
+
+  .end {
+    margin-left: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+  }
+  .end p {
+    font-size: 1.3rem;
+    margin-left: 2rem;
+  }
+  .end a {
+    margin-left: 2rem;
+    font-size: 5rem;
+    line-height: 3rem;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .main__header {
+    width: 67rem;
+    padding-left: 5rem;
+    padding-right: 0rem;
+  }
+  .main__header img {
+    width: 65%;
+  }
+  .main__header .header__navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 32.5px;
+    text-transform: uppercase;
+  }
+  .main__header .header__navigation ul li {
+    font-size: 0.8rem;
+    font-family: "Helvetica Neue Light";
+  }
+
+  .name {
+    width: 50rem;
+    margin-bottom: 5rem;
+  }
+  .name #name {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 3rem;
+    margin-right: 0rem;
+    margin-top: 8rem;
+  }
+  .name div {
+    font-size: 1.5rem;
+    margin-top: 9.5rem;
+    margin-left: 4rem;
+  }
+
+  .orangeline {
+    height: 2.3rem;
+    width: 35rem;
+    top: 13rem;
+  }
+
+  p {
+    margin-left: 4rem;
+    font-size: 1.5rem;
+  }
+
+  form {
+    margin-top: 3rem;
+    margin-left: 5.5rem;
+    font-size: 1.3rem;
+  }
+  form .row {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  form .form-control {
+    width: 41rem;
+    height: 5rem;
+  }
+  form .form-check {
+    width: 8.9rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+  }
+  form #inlineFormInput {
+    margin-left: 2.5rem;
+    margin-top: 0rem;
+    width: 19.2rem;
+    margin-bottom: 2rem;
+  }
+  form .behind {
+    margin-left: 4rem;
+  }
+  form .last {
+    height: 10rem;
+  }
+  form .button-container {
+    margin-top: 3rem;
+    margin-bottom: 179.2px;
+  }
+  form .button-container button {
+    width: 9rem;
+    height: 3.5rem;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    width: 70rem;
+    margin-left: 1rem;
+  }
+  footer .main__header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  footer .main__header {
+    height: 8rem;
+    padding-left: 1.5rem;
+  }
+
+  .end {
+    margin-left: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+  .end p {
+    font-size: 0.9rem;
+    margin-left: 2rem;
+  }
+  .end a {
+    margin-left: 2rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 575px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .main__header {
+    width: 43rem;
+    padding-left: 2.4rem;
+  }
+  .main__header img {
+    width: 8rem;
+  }
+  .main__header .header__navigation ul {
+    gap: 1.2rem;
+  }
+  .main__header .header__navigation ul li {
+    font-size: 0.7rem;
+  }
+
+  .name {
+    width: 50rem;
+    margin-bottom: 3rem;
+  }
+  .name #name {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 4rem;
+    margin-right: 0rem;
+    margin-top: 10rem;
+  }
+  .name div {
+    font-size: 1.5rem;
+    margin-top: 11.5rem;
+  }
+
+  .orangeline {
+    height: 2rem;
+    width: 35rem;
+    top: 14.5rem;
+  }
+
+  p {
+    margin-left: 4rem;
+    font-size: 1.5rem;
+  }
+
+  form {
+    margin-top: 3rem;
+    margin-left: 5.5rem;
+    font-size: 1.2rem;
+  }
+  form hr {
+    width: 32rem;
+  }
+  form .row {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  form .form-control {
+    width: 32rem;
+    height: 4rem;
+    margin-left: 4rem;
+  }
+  form .form-check {
+    width: 60rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+  }
+  form #inlineFormInput {
+    margin-left: 4.8rem;
+    margin-top: 0rem;
+    width: 13.6rem;
+    margin-bottom: 2rem;
+  }
+  form .behind {
+    margin-left: 4rem;
+  }
+  form .last {
+    height: 10rem;
+  }
+  form .button-container {
+    margin-top: 3rem;
+    margin-bottom: 179.2px;
+  }
+  form .button-container button {
+    width: 9rem;
+    height: 3.5rem;
+  }
+
+  footer {
+    font-size: 1rem;
+    width: 46.5rem;
+    margin-left: 1.5rem;
+  }
+  footer .main__header {
+    height: 6rem;
+    padding-left: 1.5rem;
+  }
+
+  .end {
+    margin-left: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+  .end p {
+    font-size: 1rem;
+  }
+  .end a {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 600;
+  }
 }
 /*# sourceMappingURL=contact.53136965.css.map */
