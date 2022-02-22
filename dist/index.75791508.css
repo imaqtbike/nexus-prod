@@ -6,6 +6,14 @@
   font-family: "Helvetica Neue Light";
   src: url("helvetica-neue-light.442273e0.otf");
 }
+@font-face {
+  font-family: "Yu Gothic Semilight";
+  src: url("Yu Gothic UI - Semilight.6f10fabf.ttf");
+}
+@font-face {
+  font-family: "Yu Gothic Light";
+  src: url("yugothil.d6bf6d47.ttf");
+}
 * {
   box-sizing: border-box;
 }
@@ -131,5 +139,62 @@ table {
   font-family: "Helvetica Neue Light";
   color: #000;
   text-decoration: none;
+}
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .main__header {
+    width: 90rem;
+    padding-left: 10rem;
+    height: 114px;
+    font-size: 1rem;
+  }
+  .main__header img {
+    height: 50%;
+  }
+  .main__header .header__navigation ul {
+    gap: 1.8rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main__header {
+    width: 67rem;
+    padding-left: 5rem;
+    padding-right: 0rem;
+  }
+  .main__header img {
+    width: 65%;
+  }
+  .main__header .header__navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 10rem;
+    text-transform: uppercase;
+  }
+  .main__header .header__navigation ul li {
+    font-size: 0.8rem;
+    font-family: "Helvetica Neue Light";
+  }
+}
+@media screen and (max-width: 575px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .main__header {
+    width: 43rem;
+    padding-left: 2.4rem;
+  }
+  .main__header img {
+    width: 8rem;
+  }
+  .main__header .header__navigation ul {
+    gap: 1.2rem;
+  }
+  .main__header .header__navigation ul li {
+    font-size: 0.7rem;
+  }
 }
 /*# sourceMappingURL=index.75791508.css.map */
