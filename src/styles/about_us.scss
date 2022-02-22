@@ -284,9 +284,10 @@
     height: 924.98px;
     margin-top: 101.7px;
     margin-right: 85px;
-    background-color: $gray-color-box;
+    background-color: rgba(142, 145, 158, .7);
 
     .showcase__main {
+        width: 577px;
         margin-left: 132.2px;
         margin-top: 56px;
 
@@ -299,6 +300,108 @@
             font-family: "Yu Gothic Light";
             letter-spacing: 10px;
         }
+
+        &__title {
+            width: 90%;
+            border-bottom: 1px solid $black;
+        }
+
+        &__btn {
+            margin-top: 53.6px;
+            display: flex;
+            align-items: center;
+            gap: 31.4px;
+            font-family: 'Helvetica Neue Light';
+
+            span {
+                letter-spacing: 2px;
+            }
+            
+            .ip__icon {
+                display: flex;
+                width: 38.62px;
+                height: 38.62px;
+                align-items: center;
+                justify-content: center;
+                background-color: $base-dark-blue;
+                border-radius: 50%;
+            }
+
+            svg {
+                width: 6.24px;
+                height: 16.21px;
+		        overflow: hidden;
+                filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(298deg) brightness(108%) contrast(101%);
+            }
+        }
+
+        &__50th {
+            margin-top: 100px;
+            img {
+                width: 100%;
+                box-shadow: 3px 3px 1px rgba(142, 145, 158, 1);
+            }
+        }
     }
+
+    .showcase__list {
+        width: 577px;
+        margin-top: 143.1px;
+        margin-left: 196px;
+        font-size: 19px;
+
+        ul > li {
+            margin-bottom: 105.2px;
+            font-family: "Yu Gothic StdN";
+            letter-spacing: 3px;
+         
+        }
+
+        ul >li:not(:last-child) {
+            display: block;
+            border-bottom: solid 1px $white;
+            padding-bottom: 54px;
+        }
+    };
+}
+
+.company__access {
+    margin-top: 109.6px;
+    margin-left: 123.2px;
+    
+    h2 {
+        margin-bottom: 39.5px;
+        font-size: 16px;
+    }
+
+    div:first-child {
+        margin-bottom: 96.1px;
+    }
+
+    .access__showcase {
+        display: flex;
+        gap: 126.2px;
+
+        &--box {
+            width: 561.39px;
+            height: 277.31px;
+            background-color: $gray-color-box;
+        }
+
+        &--info {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            top: 50%;
+            transform: translateY(26%);
+            line-height: 25px;
+
+            & > span {
+            font-size: 19px;
+            font-family: "Yu Gothic StdN";
+            }
+        }
+    }
+
 }
 
