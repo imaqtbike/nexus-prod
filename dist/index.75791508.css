@@ -11,8 +11,16 @@
   src: url("Yu Gothic UI - Semilight.6f10fabf.ttf");
 }
 @font-face {
+  font-family: "HelveticaNeue Medium";
+  src: url("HelveticaNeue Medium.5a4ba165.ttf");
+}
+@font-face {
   font-family: "Yu Gothic Light";
   src: url("yugothil.d6bf6d47.ttf");
+}
+@font-face {
+  font-family: "Kozuka Gothic Pr6N";
+  src: url("KozGoPr6NRegular.838c24e4.otf");
 }
 * {
   box-sizing: border-box;
@@ -139,5 +147,181 @@ table {
   font-family: "Helvetica Neue Light";
   color: #000;
   text-decoration: none;
+}
+.company__strength .cs__1 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 86.7px;
+}
+.company__strength .cs__1 .cs__line {
+  width: 592.6px;
+}
+.company__strength .cs__1--text {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 4;
+  font-size: 55px;
+  font-family: "Yu Gothic StdN";
+  height: 97.9px;
+}
+.company__strength .cs__1--text span:first-child {
+  margin-bottom: 73.7px;
+}
+.company__strength .cs__1--text span:nth-child(2) {
+  font-size: 26px;
+  border-top: 1px solid #13223D;
+  padding-top: 48.8px;
+  margin-left: 38.4px;
+}
+.company__strength .cs__1--text span:nth-child(3) {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 21.4px;
+  width: 150.5px;
+  height: 38.62px;
+  margin-top: 27.3px;
+  margin-left: 124.3px;
+  font-family: "HelveticaNeue Medium";
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.company__strength .cs__1--text span:nth-child(3) .ip__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38.62px;
+  height: 38.62px;
+  background-color: #13223D;
+  border-radius: 50%;
+}
+.company__strength .cs__1--text span:nth-child(3) .ip__icon svg {
+  width: 6.24px;
+  height: 16.21px;
+  filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(298deg) brightness(108%) contrast(101%);
+}
+.company__strength .cs__1--box {
+  width: 683.97px;
+  height: 416.98px;
+  background-color: #8E919E;
+}
+.company__strength .cs__2 {
+  display: flex;
+  align-items: center;
+}
+.company__strength .cs__2 .cs__1--box {
+  width: 599.13px;
+  height: 175.89px;
+  margin: 162.6px 0 0 125.1px;
+}
+.cs__container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 4;
+  align-self: flex-end;
+}
+.cs__container .cs__intro {
+  margin: 0 auto;
+  width: 677.4px;
+  font-size: 63px;
+  font-family: "Helvetica Neue";
+  color: #13223D;
+}
+.cs__container .cs__intro .x {
+  font-family: "Kozuka Gothic Pr6N";
+  font-size: 62px;
+}
+.cs__container .cs__orange-box {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 50px;
+  width: 104%;
+  height: 40.17px;
+  background-color: #FF881D;
+}
+.cs__container .cs__orange-box > span {
+  display: inline-block;
+  margin: 9.3px 0 13.9px 86.2px;
+  font-size: 13px;
+  color: #fff;
+  font-family: "Kozuka Gothic Pr6N";
+  letter-spacing: 2px;
+}
+.cs__container .cs__text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 26.1px;
+  margin-left: 49.9px;
+}
+.cs__container .cs__text span:first-child {
+  margin-bottom: 11.5px;
+}
+.cs__container .cs__text > span {
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-family: "Yu Gothic Light";
+}
+.cs__3 {
+  display: flex;
+  margin-top: 139.3px;
+}
+.cs__3 .cs__container .cs__intro {
+  text-align: center;
+}
+.cs__3 .cs__container .cs__orange-box {
+  left: 3px;
+  justify-content: end;
+}
+.cs__3 .cs__container .cs__orange-box span {
+  margin-right: 120.1px;
+}
+.cs__3 .cs__container .cs__text {
+  align-self: end;
+}
+.cs__3 .cs__container .cs__text span:nth-child(2) {
+  line-height: 28px;
+}
+.cs__3 .cs__1--box {
+  width: 599.13px;
+  height: 175.89px;
+  margin-right: 86.4px;
+}
+.cs__4 {
+  display: flex;
+  margin-top: 121.9px;
+}
+.cs__4 .cs__1--box {
+  width: 599.13px;
+  height: 175.89px;
+  margin-left: 125.1px;
+}
+.cs__5 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 123.4px;
+  margin-top: 97.4px;
+  font-family: "Yu Gothic Light";
+  line-height: 27px;
+  letter-spacing: 2px;
+}
+.company__showcase {
+  display: flex;
+  height: 924.98px;
+  margin-top: 101.7px;
+  margin-right: 85px;
+  background-color: #8E919E;
+}
+.company__showcase .showcase__main {
+  margin-left: 132.2px;
+  margin-top: 56px;
+}
+.company__showcase .showcase__main span:first-child {
+  font-size: 16px;
+}
+.company__showcase .showcase__main h3 {
+  font-size: 55px;
+  font-family: "Yu Gothic Light";
+  letter-spacing: 10px;
 }
 /*# sourceMappingURL=index.75791508.css.map */
