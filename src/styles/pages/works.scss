@@ -6,12 +6,10 @@
 
 html {
     font-size: 62.5%;
-    max-width: 1400px;
     margin: auto !important;
 }
 
 body {
-    max-width: 1400px;
     margin: auto !important;
 }
 
@@ -172,9 +170,8 @@ footer {
     width: 1300.64px;
     margin-left: 89px;
 
-    li{
-       padding-left :0px;
-    }
+    .main__header{
+        padding-left: 1rem;}
 }
 
 .end{
