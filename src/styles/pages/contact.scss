@@ -1,6 +1,6 @@
 @import '../utilities/mixin';
 @import '../utilities/variables';
-@import '../utilities/mixin';
+@import '../utilities/fonts_face';
 @include reset-css;
 
 
@@ -164,18 +164,19 @@ form{
     }
 }
 footer {
-    color: $base-dark-blue;
+    display: flex;
+    justify-content: flex-start;
     border-top: 1px solid #13223D;
     border-bottom: 1px solid #13223D;
     font-size: 17px ;
     width: 1300.64px;
     margin-left: 89px;
-    .main__header{
-        padding-left: 1rem;}
+            .main__header{
+            padding-left: 1rem;}
+
 }
 
 .end{
-    color: $base-dark-blue;
     margin-left: 85px;
     margin-top: 47.6px;
     margin-bottom: 49.4px;
