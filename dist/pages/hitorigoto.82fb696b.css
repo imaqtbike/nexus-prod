@@ -1,7 +1,30 @@
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../helvetica-neue-bold.0e3df193.ttf");
+}
+@font-face {
+  font-family: "Helvetica Neue Light";
+  src: url("../helvetica-neue-light.442273e0.otf");
+}
+@font-face {
+  font-family: "Yu Gothic Semilight";
+  src: url("../Yu Gothic UI - Semilight.6f10fabf.ttf");
+}
+@font-face {
+  font-family: "HelveticaNeue Medium";
+  src: url("../HelveticaNeue Medium.5a4ba165.ttf");
+}
+@font-face {
+  font-family: "Yu Gothic Light";
+  src: url("../yugothil.d6bf6d47.ttf");
+}
+@font-face {
+  font-family: "Kozuka Gothic Pr6N";
+  src: url("../KozGoPr6NRegular.838c24e4.otf");
+}
 * {
   box-sizing: border-box;
 }
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -22,36 +45,29 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
-
 body {
   line-height: 1;
 }
-
 ol, ul {
   list-style: none;
 }
-
 blockquote, q {
   quotes: none;
 }
-
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: "";
   content: none;
 }
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 .main__header {
   display: flex;
   justify-content: space-between;
@@ -73,7 +89,6 @@ table {
   text-decoration: none;
   color: #000;
 }
-
 .name {
   margin-bottom: 80.8px;
   font-family: "Helvetica Neue";
@@ -91,7 +106,6 @@ table {
   font-size: 24px;
   margin-top: 182.6px;
 }
-
 .orangeline {
   height: 30.32px;
   width: 700.86px;
@@ -101,18 +115,15 @@ table {
   left: 0px;
   z-index: -1;
 }
-
 #name2 {
   margin-bottom: 35.5px;
   margin-left: 123.2px;
   font-size: 24px;
   color: #13223D;
 }
-
 .container {
   margin-left: 123.2px !important;
 }
-
 .col {
   color: #13223D;
 }
@@ -139,11 +150,9 @@ table {
   font-size: 26px;
   line-height: 60px;
 }
-
 section {
   margin-bottom: 77.4px;
 }
-
 article ul {
   margin-right: 0px;
   color: #13223D;
@@ -168,7 +177,6 @@ article ul .letter-ending {
 article ul .letter-ending2 {
   font-size: 24px;
 }
-
 .moveup {
   display: flex;
   justify-content: flex-end;
@@ -193,7 +201,6 @@ article ul .letter-ending2 {
   height: 15.546px;
   filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(298deg) brightness(108%) contrast(101%);
 }
-
 footer {
   display: flex;
   justify-content: flex-start;
@@ -206,7 +213,6 @@ footer {
 footer .main__header {
   padding-left: 1rem;
 }
-
 .end {
   margin-left: 85px;
   margin-top: 47.6px;
@@ -235,7 +241,6 @@ footer .main__header {
   height: 92.6px;
   margin-left: 37.1px;
 }
-
 @media screen and (max-width: 1100px) {
   html {
     font-size: 62.5%;
