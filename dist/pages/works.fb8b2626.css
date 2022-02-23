@@ -90,6 +90,7 @@ body {
   text-transform: uppercase;
 }
 .main__header .header__navigation ul li {
+  font-size: 16px;
   font-family: "Helvetica Neue Light";
 }
 .main__header .header__navigation ul li a {
