@@ -463,4 +463,68 @@ html {
 .transform__origin {
   transform-origin: center;
 }
+.moveup {
+  display: flex;
+  justify-content: flex-end;
+}
+.moveup .ip__icon {
+  width: 38.62px;
+  height: 38.62px;
+  top: -5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #13223D;
+  border-radius: 50%;
+  margin-right: 70px;
+  margin-bottom: 31.6px;
+  margin-top: 141.7px;
+}
+.moveup .ip__icon svg {
+  transform: rotate(270deg);
+  width: 10.68px;
+  height: 15.546px;
+  filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(298deg) brightness(108%) contrast(101%);
+}
+footer {
+  display: flex;
+  justify-content: flex-start;
+  border-top: 1px solid #13223D;
+  border-bottom: 1px solid #13223D;
+  font-size: 17px;
+  width: 1300.64px;
+  margin-left: 89px;
+}
+footer .main__header {
+  padding-left: 1rem;
+}
+.end {
+  margin-left: 85px;
+  margin-top: 47.6px;
+  margin-bottom: 49.4px;
+}
+.end p {
+  margin-left: 66px;
+  font-size: 16px;
+}
+.end a {
+  margin-left: 66px;
+  font-size: 63px;
+  line-height: 40px;
+  font-weight: 600;
+  border-bottom: 1px solid #13223D;
+}
+.end .foottag li {
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #13223D;
+  border-radius: 50%;
+  width: 92.6px;
+  height: 92.6px;
+  margin-left: 37.1px;
+}
 /*# sourceMappingURL=index.75791508.css.map */
