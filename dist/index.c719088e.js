@@ -12,26 +12,28 @@ const textSlideInFromRight = document.querySelector('.text__1');
 const textSlideInFromLeft = document.querySelector('.text__2');
 let zoomOriginalLeft = 50;
 let zoomOriginalRight = -50;
-let slideSpeed = 0.5;
+let slideSpeed = 0.89;
 let originalZoom = 0.5;
 let zoomSpeed = 0.5;
 let zoomAddition = 1;
 let lastScrollTop = 0;
-// element should be replaced with the actual target element on which you have applied scroll, use window in case of no target element.
 document.addEventListener("scroll", function() {
-    var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
+    var st = window.pageYOffset || document.documentElement.scrollTop; //
     if (st > lastScrollTop) {
         // downscroll code
         zoomElement.style.transform = `scale(  ${originalZoom = originalZoom + zoomSpeed},  ${originalZoom = originalZoom + zoomSpeed})`;
         textSlideInFromLeft.style.transform = `translate(${zoomOriginalLeft = zoomOriginalLeft - slideSpeed}%, 0px)`;
         textSlideInFromRight.style.transform = `translate(${zoomOriginalRight = zoomOriginalRight + slideSpeed}%, 0px)`;
-    } else {
+    } else if (st < lastScrollTop && window.pageYOffset !== 0) {
         // upscroll code
         zoomElement.style.transform = `scale(  ${originalZoom = originalZoom - zoomSpeed},  ${originalZoom = originalZoom - zoomSpeed})`;
         textSlideInFromLeft.style.transform = `translate(${zoomOriginalLeft = zoomOriginalLeft + slideSpeed}%, 0px)`;
         textSlideInFromRight.style.transform = `translate(${zoomOriginalRight = zoomOriginalRight - slideSpeed}%, 0px)`;
+    } else if (window.pageYOffset === 0) {
+        zoomElement.style.transform = `scale(  ${originalZoom = originalZoom - zoomSpeed},  ${originalZoom = originalZoom - zoomSpeed})`;
+        zoomElement.style.transform = `scale(1,1)`;
     }
-    lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
+    lastScrollTop = st <= 0 ? 0 : st;
 }, false);
 
 //# sourceMappingURL=index.c719088e.js.map
