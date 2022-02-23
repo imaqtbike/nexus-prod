@@ -35,6 +35,10 @@ html {
 
             li {
                 font-family: 'Helvetica Neue Light';
+                a {
+                    text-decoration: none;
+                    color: $black;
+                }
             }
         }
     }

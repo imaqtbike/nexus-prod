@@ -5,16 +5,14 @@
 
 
 
-  .main__header {
+.main__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 114px;
     padding-left: 57px;
     padding-right: 65px;
-    img{
-        width: 100%;
-    }
+
     .header__navigation {
         ul {
             display: flex;
@@ -24,6 +22,10 @@
 
             li {
                 font-family: 'Helvetica Neue Light';
+                a {
+                    text-decoration: none;
+                    color: $black;
+                }
             }
         }
     }

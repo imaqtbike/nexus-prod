@@ -17,7 +17,7 @@ body {
 }
 
 
-  .main__header {
+.main__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,6 +34,10 @@ body {
 
             li {
                 font-family: 'Helvetica Neue Light';
+                a {
+                    text-decoration: none;
+                    color: $black;
+                }
             }
         }
     }

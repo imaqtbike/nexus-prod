@@ -97,6 +97,10 @@ html {
 .main__header .header__navigation ul li {
   font-family: "Helvetica Neue Light";
 }
+.main__header .header__navigation ul li a {
+  text-decoration: none;
+  color: #000;
+}
 .company__introductory {
   padding-top: 189.4px;
   height: 155vh;
