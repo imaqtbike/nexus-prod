@@ -259,6 +259,9 @@ footer .main__header {
   .main__header .header__navigation ul {
     gap: 1.8rem;
   }
+  .main__header .header__navigation li {
+    font-size: 16px;
+  }
 
   .name {
     width: 70rem;
