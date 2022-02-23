@@ -54,12 +54,10 @@ table {
 
 html {
   font-size: 62.5%;
-  max-width: 1400px;
   margin: auto !important;
 }
 
 body {
-  max-width: 1400px;
   margin: auto !important;
   color: #13223D;
 }
@@ -210,8 +208,8 @@ footer {
   width: 1300.64px;
   margin-left: 89px;
 }
-footer li {
-  padding-left: 0px;
+footer .main__header {
+  padding-left: 1rem;
 }
 
 .end {
